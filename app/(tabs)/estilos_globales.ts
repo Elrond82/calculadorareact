@@ -2,32 +2,39 @@ import { StyleSheet } from "react-native";
 import colores from "./colores";
 
 const estilos = StyleSheet.create({
-   view: {
-    backgroundColor: colores.negro,
-    width: 200,
-    height: 75,
-    margin: 10,
-    padding: 20,
-    justifyContent:'flex-start',
+
+  viewPrincipal: { 
+      flex: 1,
+      backgroundColor: 'black',
+      alignItems: 'center',
+      justifyContent: 'center',
+    },
+   
     
-  },
+  
   view1: {
     backgroundColor: colores.negro,
-    width: 200,
-    height: 75,
+    width: 360,
+    height: 175,
     margin: 10,
     padding: 20,
+    flex:1,
+    justifyContent:'flex-end',
+    alignItems:'flex-end',
     
   },
   texto: {
     color:colores.blanco,
-    fontSize: 20,
+    fontSize: 50,
   },
   view2: {
     backgroundColor: colores.negro,
-    width: 100,
-    height: 150,
+    width: 360,
+    height: 50,
     margin: 10,
+    flex:1,
+    justifyContent:'flex-end',
+    alignItems:'flex-end',
   },
   view3: {
     backgroundColor: colores.negro,
